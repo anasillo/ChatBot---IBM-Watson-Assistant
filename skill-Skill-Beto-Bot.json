@@ -1,0 +1,2532 @@
+{
+  "name": "Skill Beto Bot",
+  "intents": [
+    {
+      "intent": "NEGO_Estacionamiento",
+      "examples": [
+        {
+          "text": "Hay estacionamiento?"
+        },
+        {
+          "text": "Donde puedo dejar el auto?"
+        },
+        {
+          "text": "Ofrecen estacionamiento?"
+        },
+        {
+          "text": "Esta cubierto el estacionamiento?"
+        },
+        {
+          "text": "es gratis el estacionamiento?"
+        },
+        {
+          "text": "es facil encontrar lugar para estacionar?"
+        },
+        {
+          "text": "estacionamiento"
+        },
+        {
+          "text": "estacionar"
+        },
+        {
+          "text": "parking"
+        },
+        {
+          "text": "hay parking?"
+        },
+        {
+          "text": "cocheras"
+        },
+        {
+          "text": "hay cochera?"
+        },
+        {
+          "text": "donde puedo dejar la moto?"
+        },
+        {
+          "text": "donde dejo el auto"
+        },
+        {
+          "text": "donde dejo la moto"
+        },
+        {
+          "text": "donde dejo la bici"
+        },
+        {
+          "text": "donde dejo el auto?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "NEGO_Horarios",
+      "examples": [
+        {
+          "text": "a que hora puedo pasar?"
+        },
+        {
+          "text": "horarios?"
+        },
+        {
+          "text": "a partir de que hora puedo llegar?"
+        },
+        {
+          "text": "hasta que hora me puedo quedar?"
+        },
+        {
+          "text": "abren a la noche?"
+        },
+        {
+          "text": "abren a la tarde?"
+        },
+        {
+          "text": "abren a la mañana?"
+        },
+        {
+          "text": "en que rango horario trabajan?"
+        },
+        {
+          "text": "a que hora cierran?"
+        },
+        {
+          "text": "a que hora abren?"
+        },
+        {
+          "text": "En que horarios abren?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Security_Assurance",
+      "examples": [
+        {
+          "text": "Hay algunas precauciones contra los hackers?"
+        },
+        {
+          "text": "Qué tipos de medidas se han tomado para proteger esta conversación?"
+        },
+        {
+          "text": "¿Cómo puede asegurar que nuestra conversación por chat es confidencial?"
+        },
+        {
+          "text": "¿Cómo puedo garantizar la protección de la información de los consumidores?"
+        },
+        {
+          "text": "¿Cómo reconzco si su página web es confiable?"
+        },
+        {
+          "text": "¿Cómo saber que puedo confiar en la información obtenida en esta chat sesión?"
+        },
+        {
+          "text": "Cómo sé que este chat no es una estafa?"
+        },
+        {
+          "text": "¿Dónde puedo encontrar su certificado de seguridad?"
+        },
+        {
+          "text": "Es esto un chat oficial?"
+        },
+        {
+          "text": "¿Hay alguna razón para desconfiar de este chat?"
+        },
+        {
+          "text": "Qué sistemas de protección usan contra los hackers?"
+        },
+        {
+          "text": "Hola El usuario desea garantías de que cualquier información que proporciona en la conversación está protegida y segura."
+        },
+        {
+          "text": "¿Mi informacion personal de pago es manejada seguramente?"
+        },
+        {
+          "text": "¿Puede confirmarme si esa red es segura?"
+        },
+        {
+          "text": "Puede demostrarme que esta conversación es segura?"
+        },
+        {
+          "text": "¿Pueden asegurarme que toda la información de mi cuenta está protegida?"
+        },
+        {
+          "text": "¿Puedo confiar en todo lo que leo en este chat?"
+        },
+        {
+          "text": "¿Puedo estar seguro que mi información de tarjeta guardada está cifrada y asegurada?"
+        },
+        {
+          "text": "Quisiera asegurarme que mis detalles de tarjeta están seguros, ¿puedes hacerlo?"
+        },
+        {
+          "text": "¿Qué medidas de seguridad están usadas para asegurar que este chat es seguro?"
+        }
+      ],
+      "description": "Expresar preocupaciones sobre la seguridad del bot."
+    },
+    {
+      "intent": "NEGO_Ofertas",
+      "examples": [
+        {
+          "text": "planes de afinidad?"
+        },
+        {
+          "text": "descuentos?"
+        },
+        {
+          "text": "ofertas?"
+        },
+        {
+          "text": "tienen alguna oferta?"
+        },
+        {
+          "text": "algun dia hay precios mas bajos?"
+        },
+        {
+          "text": "descuentos disponibles?"
+        },
+        {
+          "text": "ofrecen algun descuento?"
+        },
+        {
+          "text": "que descuentos hacen?"
+        },
+        {
+          "text": "que beneficios ofrecen?"
+        },
+        {
+          "text": "beneficios?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "NEGO_Reservas",
+      "examples": [
+        {
+          "text": "puedo hacer una reserva?"
+        },
+        {
+          "text": "lunes"
+        },
+        {
+          "text": "para 3 personas"
+        },
+        {
+          "text": "15/10"
+        },
+        {
+          "text": "15 de octubre"
+        },
+        {
+          "text": "para mañana"
+        },
+        {
+          "text": "18"
+        },
+        {
+          "text": "18 hs"
+        },
+        {
+          "text": "el dia miercoles 9 a las 7pm"
+        },
+        {
+          "text": "reservas"
+        },
+        {
+          "text": "reserva"
+        },
+        {
+          "text": "como puedo reservar"
+        },
+        {
+          "text": "quisiera reservar una mesa"
+        },
+        {
+          "text": "quiero reservar"
+        },
+        {
+          "text": "te pido una mesa"
+        },
+        {
+          "text": "te reservo una mesa"
+        },
+        {
+          "text": "para reservar una mesa?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "NEGO_MediosPago",
+      "examples": [
+        {
+          "text": "puedo pagar con efectivo?"
+        },
+        {
+          "text": "puedo pagar con tarjeta?"
+        },
+        {
+          "text": "que medios de pago ofrecen?"
+        },
+        {
+          "text": "mercadopago aceptan?"
+        },
+        {
+          "text": "como cobran?"
+        },
+        {
+          "text": "formas de pagar?"
+        },
+        {
+          "text": "medios de pago?"
+        },
+        {
+          "text": "que medios de pago aceptan?"
+        },
+        {
+          "text": "con que puedo pagar?"
+        },
+        {
+          "text": "puedo pagar con monedas?"
+        },
+        {
+          "text": "que tarjetas aceptan?"
+        },
+        {
+          "text": "que tarjetas de credito aceptan?"
+        },
+        {
+          "text": "debito toman?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "NEGO_Despedirse",
+      "examples": [
+        {
+          "text": "No tengo más dudas, gracias por tu ayuda."
+        },
+        {
+          "text": "saludos"
+        },
+        {
+          "text": "me voy"
+        },
+        {
+          "text": "hasta luego"
+        },
+        {
+          "text": "chau"
+        },
+        {
+          "text": "Ya me voy."
+        },
+        {
+          "text": "Vaya usted con Diós!"
+        },
+        {
+          "text": "Usted es maravilloso. Gracias por su ayuda."
+        },
+        {
+          "text": "Un saludo."
+        },
+        {
+          "text": "¡Salud!"
+        },
+        {
+          "text": "Qué tengas una buena tarde."
+        },
+        {
+          "text": "Qué te lo pases bien."
+        },
+        {
+          "text": "OK, eso es todo lo que necesito saber."
+        },
+        {
+          "text": "adios"
+        },
+        {
+          "text": "Nos vemos."
+        },
+        {
+          "text": "¡Muchas gracias, adiós!"
+        },
+        {
+          "text": "Hablaremos más tarde."
+        },
+        {
+          "text": "Hablamos luego."
+        },
+        {
+          "text": "Gracias por tu ayuda, hasta luego."
+        },
+        {
+          "text": "Gracias, podemos cerrar esta conversación."
+        },
+        {
+          "text": "Gracias no necesito más ayuda."
+        },
+        {
+          "text": "Fue agradable hablar contigo."
+        },
+        {
+          "text": "Eso ha sido todo lo que me hacía falta."
+        },
+        {
+          "text": "Cuídate!"
+        }
+      ],
+      "description": "Fin de la conversacion."
+    },
+    {
+      "intent": "NEGO_HolaSaludo",
+      "examples": [
+        {
+          "text": "Hola, podrías responder mi pregunta?"
+        },
+        {
+          "text": "Hola, Cómo va todo?"
+        },
+        {
+          "text": "Hola, ¿Cómo te sientes?"
+        },
+        {
+          "text": "Hola, ¿Cómo estás?"
+        },
+        {
+          "text": "Hola, quien me puede atender?"
+        },
+        {
+          "text": "Hola, Señor."
+        },
+        {
+          "text": "Quién eres?"
+        },
+        {
+          "text": "Sigues aquí?"
+        },
+        {
+          "text": "Tienes un momento, por favor?"
+        },
+        {
+          "text": "Hola!"
+        },
+        {
+          "text": "hola"
+        },
+        {
+          "text": "hola,"
+        },
+        {
+          "text": "hola..."
+        },
+        {
+          "text": "Buenas tardes!"
+        },
+        {
+          "text": "holas"
+        },
+        {
+          "text": "holaaaa"
+        },
+        {
+          "text": "Hola, Cómo estás el día de hoy?"
+        },
+        {
+          "text": "Hola, amigo mío."
+        },
+        {
+          "text": "Hey, ¿cómo te va?"
+        },
+        {
+          "text": "¿Estás ahí?"
+        },
+        {
+          "text": "¡Estoy feliz de poder hablar contigo por primera vez!"
+        },
+        {
+          "text": "¿Cómo está? / Oye, ¿Qué tal?"
+        },
+        {
+          "text": "Buenos días, podemos empezar la conversación?"
+        },
+        {
+          "text": "Buenas noches."
+        },
+        {
+          "text": "Hola ¿puedes ayudarme?"
+        }
+      ],
+      "description": "Saluda al bot."
+    },
+    {
+      "intent": "NEGO_PreguGeneral",
+      "examples": [],
+      "description": ""
+    },
+    {
+      "intent": "si",
+      "examples": [
+        {
+          "text": "Eso es correcto"
+        },
+        {
+          "text": "sip"
+        },
+        {
+          "text": "positivo"
+        },
+        {
+          "text": "si"
+        },
+        {
+          "text": "Si, me gustaria seguir con eso"
+        },
+        {
+          "text": "Asi es"
+        },
+        {
+          "text": "Correcto"
+        },
+        {
+          "text": "Por favor, hazlo."
+        },
+        {
+          "text": "Lo has entendido bien."
+        },
+        {
+          "text": "Por favor haz eso"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "NEGO_Cancelar_Reserva",
+      "examples": [
+        {
+          "text": "no necesito mas mi reserva"
+        },
+        {
+          "text": "quiero eliminar la reserva hecha"
+        },
+        {
+          "text": "quiero cancelar mi reserva"
+        },
+        {
+          "text": "puedo cancelar mi reservacion?"
+        },
+        {
+          "text": "necesito cancelar la reserva que hice"
+        },
+        {
+          "text": "Hubo un cambio. Necesito cancelar mi mesa reservada"
+        },
+        {
+          "text": "alfinal no iremos a comer, les cancelo la reserva"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "no",
+      "examples": [
+        {
+          "text": "no es asi"
+        },
+        {
+          "text": "incorrecto"
+        },
+        {
+          "text": "negativo"
+        },
+        {
+          "text": "no"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "NEGO_PetFriendly",
+      "examples": [
+        {
+          "text": "esta permitido ir con animales?"
+        },
+        {
+          "text": "puedo ir con mi perro?"
+        },
+        {
+          "text": "puedo ir acompañado de mi mascota?"
+        },
+        {
+          "text": "mascotas"
+        },
+        {
+          "text": "es permitido ir con animales?"
+        },
+        {
+          "text": "esta permitido ir con mascotas?"
+        },
+        {
+          "text": "puedo llevar mi perro?"
+        },
+        {
+          "text": "puedo ir con mi gato?"
+        },
+        {
+          "text": "conejo"
+        },
+        {
+          "text": "gato"
+        },
+        {
+          "text": "perro"
+        },
+        {
+          "text": "animal"
+        },
+        {
+          "text": "mascota"
+        },
+        {
+          "text": "animales"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "NEGO_SobreElResto",
+      "examples": [
+        {
+          "text": "vision"
+        },
+        {
+          "text": "porque deberia comer en lo del bot?"
+        },
+        {
+          "text": "vision del restaurante?"
+        },
+        {
+          "text": "porque deberia ir ahi?"
+        },
+        {
+          "text": "me contas sobre el restaurante"
+        },
+        {
+          "text": "historia de Lo Del Bot"
+        },
+        {
+          "text": "que tipo de restaurante son?"
+        },
+        {
+          "text": "informacion general"
+        },
+        {
+          "text": "historia del restaurante"
+        },
+        {
+          "text": "mision"
+        },
+        {
+          "text": "mision del restaurante"
+        },
+        {
+          "text": "vision del restaurante"
+        },
+        {
+          "text": "filosofia"
+        },
+        {
+          "text": "filosofia del restaurante"
+        },
+        {
+          "text": "historia"
+        },
+        {
+          "text": "Como nace el restaurante?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Negative_Feedback",
+      "examples": [
+        {
+          "text": "Espero no necesitar tu ayada más."
+        },
+        {
+          "text": "No me lo creo."
+        },
+        {
+          "text": "No me trates así."
+        },
+        {
+          "text": "No puede ser!"
+        },
+        {
+          "text": "No te mereces este trabajo."
+        },
+        {
+          "text": "Nunca me has ayudado."
+        },
+        {
+          "text": "Tu comportamiento es inexcusable."
+        },
+        {
+          "text": "Voy a quejarme."
+        },
+        {
+          "text": "No me has dicho la verdad."
+        },
+        {
+          "text": "No estoy de acuerdo."
+        },
+        {
+          "text": "Me has proporcionado la información errónea."
+        },
+        {
+          "text": "Lo que me estás diciendo es muy frustrante."
+        },
+        {
+          "text": "La peor experiencia que he tenido en mi vida con un agente."
+        },
+        {
+          "text": "Increíble, mi problema sigue sin resolverse un mes."
+        },
+        {
+          "text": "Estoy muy decepcionado."
+        },
+        {
+          "text": "Este servicio no sirve para nada."
+        },
+        {
+          "text": "Eres un inútil."
+        },
+        {
+          "text": "El comportamiento del agente era inapropiado."
+        },
+        {
+          "text": "El agente era maldispuesto."
+        },
+        {
+          "text": "Cómo te atreves a tratarme de este modo?"
+        }
+      ],
+      "description": "Expresar comentarios desfavorables."
+    },
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": "Siempre resuelves mis problemas, gracias."
+        },
+        {
+          "text": "Siempre puedo contar con su ayuda."
+        },
+        {
+          "text": "Perfecto!"
+        },
+        {
+          "text": "Muy bien!"
+        },
+        {
+          "text": "Muy amable!"
+        },
+        {
+          "text": "Muchísimas gracias por tu ayuda!"
+        },
+        {
+          "text": "Me salvaste!"
+        },
+        {
+          "text": "Me gustaría llenar la encuesta de satisfacción."
+        },
+        {
+          "text": "Me alegraste el día."
+        },
+        {
+          "text": "Gracias por todo!"
+        },
+        {
+          "text": "Gracias."
+        },
+        {
+          "text": "Excelente!"
+        },
+        {
+          "text": "Es un placer trabajar contingo."
+        },
+        {
+          "text": "Estoy muy contento con su servicio."
+        },
+        {
+          "text": "Espero que me atiendas también la próxima vez."
+        },
+        {
+          "text": "Eres muy profesional."
+        },
+        {
+          "text": "Eres el mejor."
+        },
+        {
+          "text": "El mejor soporte."
+        },
+        {
+          "text": "El agente era muy amable y resolvió mi problema inmediatamente."
+        }
+      ],
+      "description": "Expresar un sentimiento positivo o gratitud."
+    },
+    {
+      "intent": "NEGO_Menu",
+      "examples": [
+        {
+          "text": "te pido el menu"
+        },
+        {
+          "text": "como es el menu?"
+        },
+        {
+          "text": "menu?"
+        },
+        {
+          "text": "que comidas ofrecen?"
+        },
+        {
+          "text": "que platos tienen?"
+        },
+        {
+          "text": "que platos ofrecen?"
+        },
+        {
+          "text": "que comidas tienen?"
+        },
+        {
+          "text": "dame carne"
+        },
+        {
+          "text": "pastas"
+        },
+        {
+          "text": "que vinos tienen?"
+        },
+        {
+          "text": "te puedo pedir vinos?"
+        },
+        {
+          "text": "vinos?"
+        },
+        {
+          "text": "Que hay de comer?"
+        },
+        {
+          "text": "tenesmenu"
+        },
+        {
+          "text": "Comida"
+        },
+        {
+          "text": "vegano"
+        },
+        {
+          "text": "que hay de comer"
+        },
+        {
+          "text": "pescado"
+        },
+        {
+          "text": "pescados"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "NEGO_SosUnBot",
+      "examples": [
+        {
+          "text": "Eres un operador virtual o vivo?"
+        },
+        {
+          "text": "Quiero saber si eres real o no"
+        },
+        {
+          "text": "Eres un agente virtual?"
+        },
+        {
+          "text": "Eres una máquina o una persona real?"
+        },
+        {
+          "text": "Hablo con una máquina?"
+        },
+        {
+          "text": "Hablo con una persona?"
+        },
+        {
+          "text": "Me confirmas si hablo con un agente virtual o con un agente real?"
+        },
+        {
+          "text": "Podría hablar con un agente virtual?"
+        },
+        {
+          "text": "Preferiría hablar con un agente virutal."
+        },
+        {
+          "text": "PPuedes decirme, si eres vivo o virtual?"
+        },
+        {
+          "text": "Tu eres un agente virtual o real?"
+        }
+      ],
+      "description": "Preguntar si habla con un humano o un bot."
+    },
+    {
+      "intent": "NEGO_Chistes",
+      "examples": [
+        {
+          "text": "Divierteme!"
+        },
+        {
+          "text": "Estoy aburrido."
+        },
+        {
+          "text": "Te gustan los chistes?"
+        },
+        {
+          "text": "Te gusta hacer chistes?"
+        },
+        {
+          "text": "Cuál es tu chiste favorito?"
+        },
+        {
+          "text": "Cuéntame un chiste."
+        },
+        {
+          "text": "Dime algo divertido."
+        },
+        {
+          "text": "Dime otro chiste!"
+        },
+        {
+          "text": "Dime un chiste."
+        },
+        {
+          "text": "Dime un chiste sarcástico."
+        },
+        {
+          "text": "Me aburro."
+        },
+        {
+          "text": "Me gustan los chistes, cuéntame uno."
+        },
+        {
+          "text": "Me gustaría que me diviertas."
+        },
+        {
+          "text": "Te ha pasado algo chistoso hoy?"
+        },
+        {
+          "text": "Puedes entretenerme?"
+        },
+        {
+          "text": "Puedo jugar juegos aquí?"
+        },
+        {
+          "text": "Quiero reírme un poco, cuéntame algo divertido."
+        },
+        {
+          "text": "Qué sueles hacer para divertirte?"
+        },
+        {
+          "text": "Sabes contar chistes?"
+        },
+        {
+          "text": "Sorpréndeme con algo chistoso."
+        }
+      ],
+      "description": "Solicito una broma"
+    },
+    {
+      "intent": "NEGO_SobreElBot",
+      "examples": [
+        {
+          "text": "Hablas inglés?"
+        },
+        {
+          "text": "Hablás español?"
+        },
+        {
+          "text": "ayuda"
+        },
+        {
+          "text": "Quiero crear un agente virtual que hable portugués"
+        },
+        {
+          "text": "¿Con qué tipo de robot estoy interactuando?"
+        },
+        {
+          "text": "¿Cuál es su versión?"
+        },
+        {
+          "text": "Cuántos idiomas hablas?"
+        },
+        {
+          "text": "De qué país eres?"
+        },
+        {
+          "text": "Dime tu nombre completo."
+        },
+        {
+          "text": "Dónde estás ahora mismo?"
+        },
+        {
+          "text": "¿Eres un representante oficial de conversación?"
+        },
+        {
+          "text": "Estoy buscando una solución para mejorar mi compromiso con los clientes"
+        },
+        {
+          "text": "¿Hablas alemán?"
+        },
+        {
+          "text": "Me gustaría configurar el bot de conversación para mi negocio."
+        },
+        {
+          "text": "Me puedes decir como se llama la aplicación?"
+        },
+        {
+          "text": "¿Puede darme información general sobre usted?"
+        },
+        {
+          "text": "¿Puede explicarme la diferencia entre este sistema y cualquier otro?"
+        },
+        {
+          "text": "Puedo hacerle algunas preguntas de validación de las ventas"
+        },
+        {
+          "text": "¿Puedo hacer mis preguntas usando Siri en lugar de esta aplicación?"
+        },
+        {
+          "text": "Qué color tienen tus ojos?"
+        },
+        {
+          "text": "Quiero entender cómo funcionas"
+        },
+        {
+          "text": "Qué te gusta hacer en tu tiempo libre?"
+        },
+        {
+          "text": "Tienes algún interés?"
+        }
+      ],
+      "description": "Solicitar atributos personales genéricos."
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "¿Hay un número de servicio al cliente que pueda usar para contactar a la compañía telefónica y hablar directamente con un agente?"
+        },
+        {
+          "text": "Sería posible hablar con una persona?"
+        },
+        {
+          "text": "Buenos días podría hablar por teléfono contigo?"
+        },
+        {
+          "text": "Hola, me conectas con el soporte tecnico?"
+        },
+        {
+          "text": "Transferirme a un agente por favor."
+        },
+        {
+          "text": "¿Puedo tener información de contacto para hablar con un agente real?"
+        },
+        {
+          "text": "¿Puedes ayudarme a conectar con un agente?"
+        },
+        {
+          "text": "¿Puede enviarme un número telefónico para que hable con un representante humano de ventas?"
+        },
+        {
+          "text": "Por favor ayudame a contactar a un agente."
+        },
+        {
+          "text": "Podrías ponerme en contacto con un operador?"
+        },
+        {
+          "text": "Perfecto. Ahora, me gustaría hablar con un agente sobre algunos cargos."
+        },
+        {
+          "text": "Pasame con un agente experto!"
+        },
+        {
+          "text": "Necesito hablar directamente con un agente."
+        },
+        {
+          "text": "Necesito hablar con una persona real, en lugar de un sistema automatizado de respuestas, por favor."
+        },
+        {
+          "text": "Nada contra maquinas, pero ponme con un operador."
+        },
+        {
+          "text": "Mi factura está incorrecta, quiero hablar con un representante."
+        },
+        {
+          "text": "Llama a un representante."
+        },
+        {
+          "text": "Hola, ¿puedes transferir mi llamada a un agente humano? Deseo hablar directamente con un ser humano."
+        },
+        {
+          "text": "Hola, ¿podría transferirme al agente vivo, por favor?"
+        },
+        {
+          "text": "Hola! Estaba hablando con un agente y se me ha quedado colgado el chat y he perdido la conexión."
+        },
+        {
+          "text": "Quiero hablar con una persona."
+        },
+        {
+          "text": "Hay algún ser vivo con cuál podría hablar?"
+        },
+        {
+          "text": "Esto es muy frustrante, quiero hablar con una persona viva y real."
+        },
+        {
+          "text": "Ayudame a ponerme en contacto con una persona."
+        },
+        {
+          "text": "Dejame hablar con un agente."
+        },
+        {
+          "text": "Creo que es mejor hablar con una persona."
+        },
+        {
+          "text": "Cómo puedo contactar un ser vivo?"
+        },
+        {
+          "text": "Quiero que me pongan en contacto con un número diferente para las cosas relacionadas con esta cuenta."
+        },
+        {
+          "text": "Puedo hablar con una persona?"
+        },
+        {
+          "text": "Deseo hablar con un agente."
+        },
+        {
+          "text": "Necesito hablar con alquien vivo."
+        },
+        {
+          "text": "No quiero hablar con el agente virtual."
+        },
+        {
+          "text": "Puedes transferirme a un agente real?"
+        },
+        {
+          "text": "Puedo hablar con una persona real?"
+        }
+      ],
+      "description": "Solicitar un agente humano"
+    },
+    {
+      "intent": "CHIT_chat",
+      "examples": [
+        {
+          "text": "quien es crisitina k"
+        },
+        {
+          "text": "quien es mauricio macri?"
+        },
+        {
+          "text": "asdasd"
+        },
+        {
+          "text": "asd"
+        },
+        {
+          "text": "feo"
+        },
+        {
+          "text": "puto"
+        },
+        {
+          "text": "tarado"
+        },
+        {
+          "text": "estoy hablando pavadas"
+        },
+        {
+          "text": "donde estudias?"
+        },
+        {
+          "text": "quien es el presidente de"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "¿Puedes esperar un poquito?"
+        },
+        {
+          "text": "¿Puedes darme una lista de temas de cosas con las que puedes ayudarme?"
+        },
+        {
+          "text": "¿Puedes ayudarme en cómo iniciar sesión en Virtual Agent?"
+        },
+        {
+          "text": "¿Cómo funciona el filtro en la pantalla de capacidades?"
+        },
+        {
+          "text": "¿Qué tipo de información y problemas puedes resolver para mí?"
+        },
+        {
+          "text": "Tengo varios problemas y necesito saber con qué me puede ayudar."
+        },
+        {
+          "text": "Tengo algunos problemas y quiero algo de información sobre cómo conseguir ayuda."
+        },
+        {
+          "text": "Tengo algunas preguntas y necesito ayuda, ¿puedo recibir ayuda?"
+        },
+        {
+          "text": "¿Qué tipo de preguntas puedes contestar? ¿Y cuáles son tus limitaciones de respuestas?"
+        },
+        {
+          "text": "¿Qué tipo de cosas puede hacer por mí?"
+        },
+        {
+          "text": "¿Qué pasa si quiero cambiar la respuesta de texto para una intención?"
+        },
+        {
+          "text": "¿Qué hace un agente digital? ¿Para qué te uso?"
+        },
+        {
+          "text": "¿Qué clase de cosas haces?"
+        },
+        {
+          "text": "¿Puedo tener una lista de temas disponibles, con los que puedes ayudarme?"
+        },
+        {
+          "text": "¿Podría esperar un segundo por favor?"
+        },
+        {
+          "text": "¿Podría esperar un momento por favor?"
+        },
+        {
+          "text": "¿Podría darme una lista de temas con las que puede ayudarme?"
+        },
+        {
+          "text": "¿Cuáles son las opciones disponibles si estoy usando agente virtual?"
+        },
+        {
+          "text": "¿Con qué categorías de problemas me puedes ayudar?"
+        },
+        {
+          "text": "¿Con qué categorías de problemas están capaz de ayudarme?"
+        }
+      ],
+      "description": "Solicitar capacidades del bot."
+    },
+    {
+      "intent": "NEGO_Lugar",
+      "examples": [
+        {
+          "text": "donde es el restaurante?"
+        },
+        {
+          "text": "como llego?"
+        },
+        {
+          "text": "donde es?"
+        },
+        {
+          "text": "donde es la locacion?"
+        },
+        {
+          "text": "como hago para llegar?"
+        },
+        {
+          "text": "direccion exacta?"
+        },
+        {
+          "text": "cual es la direccion?"
+        },
+        {
+          "text": "direccion?"
+        },
+        {
+          "text": "donde es el lugar?"
+        },
+        {
+          "text": "locacion?"
+        },
+        {
+          "text": "donde estan?"
+        },
+        {
+          "text": "ubicacion?"
+        },
+        {
+          "text": "donde se ubican?"
+        },
+        {
+          "text": "donde estan ubicados?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "NEGO_Fumador",
+      "examples": [
+        {
+          "text": "hay sector fumador?"
+        },
+        {
+          "text": "se puede fumar?"
+        },
+        {
+          "text": "esta permitido fumar?"
+        },
+        {
+          "text": "dejan fumar?"
+        },
+        {
+          "text": "fumar"
+        },
+        {
+          "text": "fumador"
+        },
+        {
+          "text": "es fumador?"
+        },
+        {
+          "text": "puedo llevar habanos?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "NEGO_Recepcion",
+      "examples": [],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "sys-date",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Menu_TipoComida",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Pescados",
+          "synonyms": [
+            "salmon",
+            "pescados",
+            "mariscos",
+            "atún",
+            "sardinas",
+            "anchoas",
+            "marisco",
+            "camarón",
+            "pescado"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Carnes",
+          "synonyms": [
+            "de vaca",
+            "carne",
+            "res",
+            "churrasco",
+            "churrascos",
+            "costillita",
+            "costillitas",
+            "pollo",
+            "carne roja",
+            "cerdo",
+            "asado",
+            "tocino",
+            "chorizo",
+            "albóndiga",
+            "albondiga",
+            "carnes"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Vinos",
+          "synonyms": [
+            "tintos",
+            "sauvignon",
+            "vino",
+            "syrah",
+            "malbec",
+            "crémants",
+            "licorosos",
+            "mostos",
+            "tannat",
+            "vinificación",
+            "viognier",
+            "roussanne",
+            "aligoté",
+            "verdot",
+            "carménère",
+            "gamay",
+            "pinot",
+            "semillón",
+            "cinsaut",
+            "mourvèdre",
+            "poulsard",
+            "cinsault",
+            "marsanne",
+            "muscadet",
+            "dolcetto",
+            "mauzac",
+            "crémant",
+            "verduzzo",
+            "mondeuse",
+            "gewürztraminer",
+            "jacquère",
+            "croatina",
+            "freisa",
+            "côt",
+            "arneis",
+            "négrette",
+            "carignan",
+            "docg",
+            "durif",
+            "abouriou",
+            "Carta de Vinos",
+            "Vinagres",
+            "Vinito"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Pastas",
+          "synonyms": [
+            "pastas",
+            "sorrentino",
+            "sorrentinos",
+            "fideos",
+            "fideo",
+            "ñoqui",
+            "ñoquis",
+            "noqui",
+            "noquis",
+            "raviolis",
+            "pasta",
+            "sopas",
+            "salsas",
+            "sopa"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Veggie",
+          "synonyms": [
+            "vegetariano",
+            "ensaladas",
+            "ensalada",
+            "lechuga",
+            "tomate",
+            "ajo",
+            "verdura",
+            "arroz",
+            "zanahorias",
+            "garbanzos"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Pizzas",
+          "synonyms": [
+            "pizza",
+            "pizzas",
+            "calabresa",
+            "jamon y morrones",
+            "fugazzeta",
+            "fainá"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "numero_reserva",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "orden_sintaxis",
+          "patterns": [
+            "[A-Z]{2}\\d{5}"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-time",
+      "values": [],
+      "fuzzy_match": true
+    }
+  ],
+  "language": "es",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-09-20"
+    }
+  },
+  "skill_id": "27a77564-5aae-4e51-b5c1-580fee3b5c69",
+  "webhooks": [
+    {
+      "url": "",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "description": "",
+  "dialog_nodes": [
+    {
+      "type": "event_handler",
+      "title": "handler_8_1570545715999",
+      "output": {
+        "text": {
+          "values": [
+            "Disculpa, pero la última reserva disponible que tengo es a las 21 hs."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_37_1570553360245",
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-time.after('21:00:00')",
+      "event_name": "filled",
+      "dialog_node": "handler_40_1570553360245",
+      "previous_sibling": "handler_39_1570553360245"
+    },
+    {
+      "type": "event_handler",
+      "title": "handler_9_1570545800880",
+      "output": {
+        "text": {
+          "values": [
+            "Disculpas, pero sólo se aceptan reservas para luego de las 16 hs."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_37_1570553360245",
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-time.before('16:00:00')",
+      "event_name": "filled",
+      "dialog_node": "handler_41_1570553360245",
+      "previous_sibling": "handler_40_1570553360245"
+    },
+    {
+      "type": "event_handler",
+      "title": "handler_7_1570400920570",
+      "output": {
+        "text": {
+          "values": [
+            "¿A qué hora deseas la reserva?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_37_1570553360245",
+      "event_name": "focus",
+      "dialog_node": "handler_39_1570553360245",
+      "previous_sibling": "handler_38_1570553360245"
+    },
+    {
+      "type": "event_handler",
+      "title": "handler_4_1570400920570",
+      "output": {},
+      "parent": "slot_37_1570553360245",
+      "context": {
+        "time": "@sys-time"
+      },
+      "conditions": "@sys-time",
+      "event_name": "input",
+      "dialog_node": "handler_38_1570553360245"
+    },
+    {
+      "type": "standard",
+      "title": "Buenas noches",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Buenas noches y bienvenido a Lo del Bot. ¿Cómo puedo ayudarle?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1570499214976",
+      "conditions": "now().after('19:00:00')",
+      "dialog_node": "node_7_1570460977630",
+      "previous_sibling": "node_9_1570460928896"
+    },
+    {
+      "type": "standard",
+      "title": "Buenas tardes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Buenas tardes y bienvenido a Lo del Bot. ¿Cómo puedo ayudarle?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1570499214976",
+      "conditions": "now().before('19:00:00')",
+      "dialog_node": "node_9_1570460928896",
+      "previous_sibling": "node_3_1570460834286"
+    },
+    {
+      "type": "standard",
+      "title": "Buenos días",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Buenos días y bienvenido a Lo del Bot. ¿Cómo puedo ayudarle?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1570499214976",
+      "conditions": "now().before('12:00:00')",
+      "dialog_node": "node_3_1570460834286"
+    },
+    {
+      "type": "response_condition",
+      "title": "response_4_1570405690933",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "ola"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1570403794840",
+      "disabled": true,
+      "conditions": "$time < 13",
+      "dialog_node": "response_4_1570405690933",
+      "previous_sibling": "response_3_1570405678604"
+    },
+    {
+      "type": "response_condition",
+      "title": "response_3_1570405678604",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hola $hora_del_dia, bienvenido a Lo del Bot. ¿Cómo puedo ayudarle?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1570403794840",
+      "disabled": true,
+      "conditions": "$time > 13:00",
+      "dialog_node": "response_3_1570405678604",
+      "previous_sibling": "node_7_1570499214976"
+    },
+    {
+      "type": "folder",
+      "title": "Buenos $DiaTardeNoche",
+      "parent": "node_10_1570403794840",
+      "dialog_node": "node_7_1570499214976"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Por favor, indícame cuántas personas asistirán."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_8_1570553841396",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1570553841400",
+      "previous_sibling": "handler_8_1570553841399"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_8_1570553841396",
+      "context": {
+        "personas": "$personas"
+      },
+      "conditions": "$personas",
+      "event_name": "input",
+      "dialog_node": "handler_8_1570553841399"
+    },
+    {
+      "type": "event_handler",
+      "title": "handler_8_1570400853503",
+      "output": {
+        "text": {
+          "values": [
+            "¿Qué día te gustaría reservar?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_32_1570553360245",
+      "event_name": "focus",
+      "dialog_node": "handler_34_1570553360245",
+      "previous_sibling": "handler_33_1570553360245"
+    },
+    {
+      "type": "event_handler",
+      "title": "handler_9_1570400853503",
+      "output": {},
+      "parent": "slot_32_1570553360245",
+      "context": {
+        "fecha": "@sys-date"
+      },
+      "conditions": "@sys-date",
+      "event_name": "input",
+      "dialog_node": "handler_33_1570553360245"
+    },
+    {
+      "type": "event_handler",
+      "title": "handler_5_1570401373566",
+      "output": {},
+      "parent": "slot_43_1570553360245",
+      "event_name": "focus",
+      "dialog_node": "handler_45_1570553360245",
+      "previous_sibling": "handler_44_1570553360245"
+    },
+    {
+      "type": "event_handler",
+      "title": "handler_9_1570401373566",
+      "output": {},
+      "parent": "slot_43_1570553360245",
+      "context": {
+        "personas": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_44_1570553360245"
+    },
+    {
+      "type": "standard",
+      "title": "Menu_Desambiguar",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "En Lo del Bot contamos con una amplia variedad de menúes, entre ellos Pastas, Carne, Pizzas y Pescados. Por supuesto, ¡también contamos con un menú Vegano y una carta de vinos!"
+              },
+              {
+                "text": "En Lo del Bot no disponemos de servicio de delivery, sólo contamos con platos en sitio. ¿Sobre cuál menú quisieras recibir información?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_7_1569369088932",
+      "conditions": "true",
+      "dialog_node": "node_5_1569971176194",
+      "previous_sibling": "node_1_1571178312864"
+    },
+    {
+      "type": "standard",
+      "title": "Menu_Carta_Vinos",
+      "output": {
+        "generic": [
+          {
+            "title": "Puedes ver nuestra Carta de Vinos aquí:",
+            "source": "https://vinosdiferentes.com/wp-content/uploads/2016/09/carta-de-vinos-01.jpg",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_7_1569369088932",
+      "conditions": "@Menu_TipoComida:Vinos",
+      "dialog_node": "node_1_1570550365725",
+      "previous_sibling": "node_2_1569971427407"
+    },
+    {
+      "type": "standard",
+      "title": "Menu_Veggie",
+      "output": {
+        "generic": [
+          {
+            "title": "Puedes ver nuestro menú vegetariano aquí:",
+            "source": "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/vegetarian-vegan-menu-template-design-4e40d06694884d9538114850ca608c21_screen.jpg?ts=1561424664",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_7_1569369088932",
+      "conditions": "@Menu_TipoComida:Veggie",
+      "dialog_node": "node_1_1570547933041",
+      "previous_sibling": "node_1_1570550365725"
+    },
+    {
+      "type": "standard",
+      "title": "Menu_Carne",
+      "output": {
+        "generic": [
+          {
+            "title": "Puedes ver nuestro menú de Carnes aquí:",
+            "source": "https://res.cloudinary.com/dibb3phsg/image/upload/c_scale,w_272/v1537154974/CARNE/MENU_CARNE_NUEVO2.jpg",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_7_1569369088932",
+      "conditions": "@Menu_TipoComida:Carnes",
+      "dialog_node": "node_2_1569971427407",
+      "previous_sibling": "node_5_1569971319503"
+    },
+    {
+      "type": "standard",
+      "title": "Menu_Pescados",
+      "output": {
+        "generic": [
+          {
+            "title": "Puedes ver nuestro menú de pescados aquí:",
+            "source": "https://st2.depositphotos.com/4735355/7310/v/950/depositphotos_73103191-stock-illustration-best-seafood-menu-design.jpg",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_7_1569369088932",
+      "conditions": "@Menu_TipoComida:Pescados",
+      "dialog_node": "node_1_1571178312864",
+      "previous_sibling": "node_1_1570547933041"
+    },
+    {
+      "type": "standard",
+      "title": "Menu_Pastas",
+      "output": {
+        "generic": [
+          {
+            "title": "Puedes ver nuestro menú de Pastas aquí:",
+            "source": "http://online.fliphtml5.com/tmlz/zdye/files/large/2.jpg",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_7_1569369088932",
+      "conditions": "@Menu_TipoComida:Pastas",
+      "dialog_node": "node_5_1569971319503",
+      "previous_sibling": "node_1_1569970800651"
+    },
+    {
+      "type": "standard",
+      "title": "Menu_Pizza",
+      "output": {
+        "generic": [
+          {
+            "title": "Puedes ver nuestro menú de Pizzas aquí:",
+            "source": "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/pizza-menu-poster-template-534f79415ac494e99234b4a2ed944190_screen.jpg?ts=1561520439",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_7_1569369088932",
+      "conditions": "@Menu_TipoComida:Pizzas",
+      "dialog_node": "node_1_1569970800651"
+    },
+    {
+      "type": "standard",
+      "title": "Desambiguar Reserva",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Necesito su número de reserva para poder cancelar la mesa reservada. Si no lo recuerda por favor llame al 0810-222-1212 o acérquese en persona al restaurante."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1570401671620",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_4_1570497327873"
+      },
+      "conditions": "true",
+      "dialog_node": "node_4_1570401947395",
+      "previous_sibling": "node_4_1570401812364"
+    },
+    {
+      "type": "standard",
+      "title": "Validar NRO Reserva",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Listo, la reserva $numeroreserva ha sido cancelada."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1570401671620",
+      "context": {
+        "numeroreserva": "<? @numero_reserva.literal ?>"
+      },
+      "conditions": "@numero_reserva",
+      "dialog_node": "node_4_1570401812364"
+    },
+    {
+      "type": "standard",
+      "title": "Pedir numero de reserva",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Por favor dime tu número de reserva así puedo proseguir a cancelarla."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1570401611058",
+      "conditions": "true",
+      "dialog_node": "node_5_1570401671620",
+      "previous_sibling": "node_1_1570402151603"
+    },
+    {
+      "type": "standard",
+      "title": "Número de reserva dado",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Solo para confirmar. ¿Usted quiere cancelar $numeroreserva ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1570401611058",
+      "conditions": "@numero_reserva",
+      "dialog_node": "node_1_1570402151603"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¡Listo! La reserva $numeroreserva se ha cancelado. "
+              },
+              {
+                "text": "¡Esperamos poder recibirlo pronto!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1570402151603",
+      "context": {
+        "date": null,
+        "time": null,
+        "personas": null
+      },
+      "conditions": "#si",
+      "dialog_node": "node_3_1570402245305"
+    },
+    {
+      "type": "slot",
+      "title": "slot_8_1570401373559",
+      "output": {},
+      "parent": "node_29_1570553360242",
+      "variable": "$personas",
+      "conditions": "not input.text.contains('una') &&             @sys-number > 0 && input.text.contains('persona')",
+      "dialog_node": "slot_43_1570553360245",
+      "previous_sibling": "slot_37_1570553360245"
+    },
+    {
+      "type": "slot",
+      "title": "slot_10_1570558721537",
+      "output": {},
+      "parent": "node_29_1570553360242",
+      "variable": "$fecha",
+      "dialog_node": "slot_10_1570558721537",
+      "previous_sibling": "slot_32_1570553360245"
+    },
+    {
+      "type": "slot",
+      "parent": "node_29_1570553360242",
+      "variable": "$personas",
+      "dialog_node": "slot_8_1570553841396",
+      "previous_sibling": "slot_43_1570553360245"
+    },
+    {
+      "type": "slot",
+      "title": "slot_9_1570400853483",
+      "output": {},
+      "parent": "node_29_1570553360242",
+      "variable": "$fecha",
+      "conditions": "@sys-date > today ()",
+      "dialog_node": "slot_32_1570553360245",
+      "previous_sibling": "handler_46_1570553360245"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Reserva cancelada."
+              },
+              {
+                "text": "¿Puedo ayudarte en algo más?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_29_1570553360242",
+      "context": {
+        "time": null,
+        "fecha": null,
+        "personas": null
+      },
+      "conditions": "#no",
+      "dialog_node": "node_31_1570553360245",
+      "previous_sibling": "node_30_1570553360245"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Listo, tu número de reserva es IT<?new Random().nextInt(9)?><?new Random().nextInt(9)?><?new Random().nextInt(9)?><?new Random().nextInt(9)?><?new Random().nextInt(9)?> "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_29_1570553360242",
+      "conditions": "#si",
+      "dialog_node": "node_30_1570553360245",
+      "previous_sibling": "response_3_1570556790189"
+    },
+    {
+      "type": "slot",
+      "title": "slot_5_1570400920566",
+      "output": {},
+      "parent": "node_29_1570553360242",
+      "variable": "$time",
+      "dialog_node": "slot_37_1570553360245",
+      "previous_sibling": "slot_10_1570558721537"
+    },
+    {
+      "type": "event_handler",
+      "title": "handler_1_1570400871710",
+      "output": {
+        "text": {
+          "values": [
+            "Por favor indícanos el día, hora y cantidad de personas para la reserva."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_29_1570553360242",
+      "event_name": "focus",
+      "dialog_node": "handler_46_1570553360245",
+      "previous_sibling": "node_31_1570553360245"
+    },
+    {
+      "type": "response_condition",
+      "title": "response_3_1570556790189",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Perfecto, estamos a punto de reservar una mesa para $personas personas, para el día $fecha a las $time hs. ¿Quieres continuar con tu reserva?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "Confirmar Reserva",
+            "options": [
+              {
+                "label": "Si",
+                "value": {
+                  "input": {
+                    "text": "Si"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_29_1570553360242",
+      "context": {},
+      "conditions": "$fecha!=null",
+      "dialog_node": "response_3_1570556790189"
+    },
+    {
+      "type": "event_handler",
+      "title": "handler_3_1570558721544",
+      "output": {
+        "text": {
+          "values": [
+            "Hemos tenido un problema para registrar esa fecha. ¿Quieres decirme otro día?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_10_1570558721537",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1570558721544",
+      "previous_sibling": "handler_8_1570558721544"
+    },
+    {
+      "type": "event_handler",
+      "title": "handler_8_1570558721544",
+      "output": {},
+      "parent": "slot_10_1570558721537",
+      "context": {
+        "fecha": "$fecha"
+      },
+      "conditions": "$fecha",
+      "event_name": "input",
+      "dialog_node": "handler_8_1570558721544"
+    },
+    {
+      "type": "standard",
+      "parent": "node_3_1570402245305",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_5_1570401671620"
+      },
+      "conditions": "true",
+      "dialog_node": "node_6_1570402361660"
+    },
+    {
+      "type": "standard",
+      "title": "Horarios",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Nuestros horarios de atención son de Martes a Sábados de 12:00 a 23:00 horas y Domingos de 16:00 a 22:00 horas. Los lunes nos tomamos un descanso."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#NEGO_Horarios",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1570399614671",
+      "previous_sibling": "node_2_1570400554490"
+    },
+    {
+      "type": "standard",
+      "title": "Sobre el Restaurante",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Lo Del Bot es un restaurant de Carnes, Pastas y Pizzas. El primer local fue inaugurado en Junio de 1999 en San Isidro.\n\nTe esperamos para disfrutar de esta experiencia."
+              },
+              {
+                "text": "En Lo Del Bot creemos que la base para preparar un buen plato se encuentra en la calidad de los ingredientes que lo componen.\n\nTe esperamos para disfrutar de esta experiencia."
+              },
+              {
+                "text": "Nuestra visión es aportar alimentos de calidad en un ambiente placentero a través de un servicio excelente.\n\nTe esperamos para disfrutar de esta experiencia."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#NEGO_SobreElResto",
+      "dialog_node": "node_2_1570400554490",
+      "previous_sibling": "node_7_1570408154859"
+    },
+    {
+      "type": "standard",
+      "title": "Hasta luego",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Muchas gracias por tu interés en Lo del Bot, ¡esperamos verte pronto!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#NEGO_Despedirse",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_10_1570497692233",
+      "previous_sibling": "node_1_1570400180411"
+    },
+    {
+      "type": "standard",
+      "title": "Preguntas Sobre el Bot",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Mi nombre es Beto, soy el asistente virtual de Lo del Bot, ¡puedes hacerme la pregunta que desees acerca del Restaurant e intentaré responderte!"
+              },
+              {
+                "text": "Mi nombre es Beto, pero yo no soy lo importante. ¡Intenta realizarme una pregunta acerca del negocio así podré ayudarte!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#NEGO_SobreElBot ||    #NEGO_SosUnBot || #NEGO_Chistes",
+      "dialog_node": "node_4_1570497327873",
+      "previous_sibling": "node_10_1570403794840"
+    },
+    {
+      "type": "standard",
+      "title": "Ofertas",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Con Club La Nación podes disfrutar de un 20% de descuento en carnes y vinos todos los días."
+              },
+              {
+                "text": "Los días lunes ofrecemos un 30% de descuento hasta las 21:00 horas para toda la carta."
+              },
+              {
+                "text": "Con Galicia Eminent obtienes un 2x1 en bebidas alcohólicas todos los miércoles. "
+              },
+              {
+                "text": "Abonando en efectivo recibes un 10% de descuento todos los días."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#NEGO_Ofertas",
+      "dialog_node": "node_1_1570400180411",
+      "previous_sibling": "node_2_1570399747614"
+    },
+    {
+      "type": "frame",
+      "title": "Reservar Mesa",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#NEGO_Reservas",
+      "dialog_node": "node_29_1570553360242",
+      "previous_sibling": "node_7_1569369088932"
+    },
+    {
+      "type": "standard",
+      "title": "Bienvenido",
+      "output": {
+        "generic": []
+      },
+      "context": {},
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "welcome || #NEGO_HolaSaludo",
+      "dialog_node": "node_10_1570403794840",
+      "previous_sibling": "node_8_1570403205534"
+    },
+    {
+      "type": "standard",
+      "title": "Pet Friendly",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Únicamente permitimos la presencia de perros en el sector de afuera para el horario del almuerzo."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#NEGO_PetFriendly",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_8_1570407762756",
+      "previous_sibling": "node_5_1570401611058"
+    },
+    {
+      "type": "standard",
+      "title": "Medios De Pago",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "En Lo Del Bot aceptamos tarjetas de crédito y débito Visa, Mastercard y American Express. Y efectivo para cuentas que superen los 500 pesos argentinos. ¡Por supuesto que puedes abonar también con Mercado Pago!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#NEGO_MediosPago",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_6_1570399843802",
+      "previous_sibling": "node_3_1570399614671"
+    },
+    {
+      "type": "standard",
+      "title": "Lugar",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Estamos ubicados en Avenida Eduardo Madero 399."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#NEGO_Lugar",
+      "dialog_node": "node_2_1570399747614",
+      "previous_sibling": "node_6_1570399843802"
+    },
+    {
+      "type": "standard",
+      "title": "Estacionamiento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ofrecemos hasta 3 horas de estacionamiento gratuito a nuestros clientes para todo tipo de vehículos."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#NEGO_Estacionamiento",
+      "dialog_node": "node_1_1570407886257",
+      "previous_sibling": "node_8_1570407762756"
+    },
+    {
+      "type": "standard",
+      "title": "Cancelar Reserva",
+      "output": {
+        "generic": []
+      },
+      "context": {
+        "time": null,
+        "fecha": null,
+        "personas": null,
+        "numeroreserva": null
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#NEGO_Cancelar_Reserva",
+      "dialog_node": "node_5_1570401611058",
+      "previous_sibling": "node_29_1570553360242"
+    },
+    {
+      "type": "standard",
+      "title": "Menú",
+      "output": {
+        "generic": []
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_1_1569970800651"
+      },
+      "conditions": "#NEGO_Menu",
+      "dialog_node": "node_7_1569369088932",
+      "previous_sibling": "node_4_1570497327873"
+    },
+    {
+      "type": "standard",
+      "title": "En otras cosas",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No le he entendido. ¿Podrías reformular la consulta?"
+              },
+              {
+                "text": "¿Puede expresarse con otras palabras? No le he entendido."
+              },
+              {
+                "text": "No entendí el significado. Intenta escribirme nuevamente."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "anything_else || #CHIT_chat",
+      "dialog_node": "En otras cosas",
+      "previous_sibling": "node_10_1570497692233"
+    },
+    {
+      "type": "standard",
+      "title": "Fumador",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Contamos con un patio exterior en donde esta permitido fumar. "
+              },
+              {
+                "text": "¡Por favor no olvides tirar tus colillas en el cenicero!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#NEGO_Fumador",
+      "dialog_node": "node_7_1570408154859",
+      "previous_sibling": "node_1_1570407886257"
+    },
+    {
+      "type": "standard",
+      "title": "Comienzo de Conversación",
+      "output": {
+        "generic": []
+      },
+      "context": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_10_1570403794840"
+      },
+      "conditions": "conversation_start || #NEGO_HolaSaludo",
+      "dialog_node": "node_8_1570403205534"
+    }
+  ],
+  "workspace_id": "27a77564-5aae-4e51-b5c1-580fee3b5c69",
+  "counterexamples": [],
+  "system_settings": {
+    "tooling": {
+      "store_generic_responses": true
+    }
+  },
+  "learning_opt_out": false,
+  "status": "Available"
+}
